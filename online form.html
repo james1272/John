@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online form</title>
+    <link rel="stylesheet" href="online form.css">
+</head>
+<body>
+    <form action="submit_application.php" method="post">
+        <label for="student-name">Student's Name:</label>
+        <input type="text" id="student-name" name="student_name" required><br>
+        
+        <label for="email">Parent/Guardian Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <label for="file">photographs</label>
+        <input type="file" name="photographs" id="file">
+        
+        <label for="grade">Grade Applying For:</label>
+        <select id="grade" name="grade" required>
+            <option value="JSS1">JSS1</option>
+            <option value="JSS2">JSS2</option>
+            <option value="JSS3">JSS3</option>
+            <option value="SS1">SS1</option>
+            <option value="SS2">SS2</option>
+            <option value="SS3">SS3</option>
+        </select>
+        
+        <button type="submit">Submit Application</button>
+    </form>
+</body>
+</html>

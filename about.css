@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+.main-header {
+    background-color: #f6faff; /* Navy Blue */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Button Navigation Styles */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #00509e; /* Lighter Blue */
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #00509e;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover {
+    background-color: #fdb927; /* Gold */
+    color: #002855;
+    box-shadow: 0 0 15px #fdb927; /* Glow effect */
+    transform: scale(1.05);
+}
+
+/* Glowing Button Styles */
+.glow-button {
+    background-color: #fdb927; /* Gold */
+    color: #002855;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 5px #fdb927, 0 0 10px #fdb927, 0 0 15px #fdb927;
+}
+
+.glow-button:hover {
+    box-shadow: 0 0 20px #fdb927, 0 0 30px #fdb927, 0 0 40px #fdb927;
+    transform: scale(1.1);
+}
+
+.glow-button:focus {
+    outline: none;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Leadership Section Styles */
+.leadership-team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.leader {
+    text-align: center;
+    width: 250px;
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.leader:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.leader-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border: 2px solid #002855;
+}
+
+.leader h3 {
+    color: #002855;
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.leader p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #002855;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
